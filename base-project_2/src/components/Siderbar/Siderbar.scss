@@ -1,0 +1,87 @@
+a:hover {
+  text-decoration:none!important;
+}
+.main-siderbar .hoverSpan{
+  width: 3px;
+  height:100%;
+  background: rgb(228,228,228);
+}
+.main-siderbar .ztree{
+  padding-left: 30px;
+  background: #f2f2f2;
+}
+.ztree li a.curSelectedNode{
+  background-color: #f2f2f2;
+  border: none;
+}
+.ztree li .node_name:hover{
+  color: rgb(192,213,237);
+}
+.ztree li a.curSelectedNode .node_name{
+  background: rgba(73, 144, 226, 1);
+  color: white;
+}
+.ztree li{
+  line-height: 25px;
+}
+.main-siderbar{
+  width: 200px;height:100%;float:left;font-size:14px;position: fixed;
+  border: 1px solid #f2f2f2;z-index: 111;background: white;margin-top: 80px;
+}
+.main-siderbar>ul{
+  height: auto;background:#f2f2f2;
+}
+.main-siderbar>ul>li:hover{
+  background: rgba(73, 144, 226, 1);
+}
+.main-siderbar>ul>li ul,.main-siderbar>ul>li ul:hover{
+  background: rgb(242, 242, 242);
+}
+.main-siderbar>ul>li>p{
+  color:#333;line-height:40px;padding:0 20px;box-sizing: content-box;cursor: pointer;z-index: 101;
+  margin-left: 10px;
+}
+.main-siderbar>ul>li:hover p{
+  background: rgba(235,242,254,1)
+}
+.main-siderbar>ul>li.btnActive{
+  background: rgba(73, 144, 226, 1);
+}
+.main-siderbar>ul>li.btnActive p{
+  background: rgba(228, 228, 228, 1);
+}
+.main-siderbar>ul>li{
+  position: relative;
+  line-height: 30px;
+  cursor: pointer;
+}
+.main-siderbar .menusName:visited{
+  background: rgb(73, 144, 226);
+  color: white;
+}
+.main-siderbar .menusName:hover{
+  color: rgb(192,213,237);
+}
+.main-siderbar .menusName:active{
+  background: rgb(73, 144, 226);
+  color: white;
+}
+.main-siderbar>ul>li p b{
+  float:right;margin-top:10px;
+}
+.main-siderbar>ul>li>div p{
+  /*padding-left:30px !important;position:relative;*/
+}
+.main-siderbar>ul>li>div p .strioke2{
+  height:100%;width:2px;background:#00b3ee;display:none;position:absolute;left:0;
+}
+.main-siderbar .source>li>ul{
+  padding-left: 48px;
+}
+.source>li>p{
+  font-size: 16px;
+}
+.side-active {
+  background: rgb(73, 144, 226);
+  color: white !important;
+}

@@ -1,0 +1,64 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "wu",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "b": "node  ./node_modules/code-beautify",
+    "build": "webpack --config ./webpack.config.build.js",
+    "dev": "node ./webpackDevServer.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-loader": "^7.0.0",
+    "colors-cli": "^1.0.8",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.3",
+    "precss": "^1.4.0",
+    "rc-tree": "^1.5.0",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-checkbox-tree": "^0.6.3",
+    "react-dom": "^15.5.4",
+    "react-tree-menu": "^1.5.0",
+    "react-treebeard": "^1.1.4",
+    "rodal": "^1.5.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "code-beautify": "*",
+    "colors-cli": "^1.0.8",
+    "css-loader": "^0.28.1",
+    "es6-promise": "^4.1.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.2",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.2",
+    "jquery": "^3.2.1",
+    "js-beautify": "^1.6.12",
+    "opn": "^5.0.0",
+    "postcss-loader": "^1.3.3",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "sass-loader": "^6.0.5",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5",
+    "ztree-for-react": "^0.1.5"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|react-test|spec))\\.(js)$",
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+/*component-logo*/
+.component-logo{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.component-computer-logo{
+    display: flex;
+    justify-content:space-between;
+    height:80px;
+    line-height:80px;padding: 0 10px;background:#fff;clear:both;
+    border-bottom: 2px solid #f2f2f2;
+}
+.component-computer-logo span{
+    display:inline-block;float:left;width:272px;
+}
+.logo-icon {
+    flex-grow:4;
+}
+.component-computer-logo span img{
+    float:left;margin:11px 0 0;height:58px;
+}
+.component-computer-logo span h1{
+    display: inline-block;
+    margin-left: 23px;font-size:26px;line-height:35px;
+}
+/*.component-search(搜索框)*/
+.component-computer-logo .component-search{
+    flex-grow:1;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+    height:100%;
+}
+.component-computer-logo .component-search form{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: flex-start;
+    align-items:center;
+    width:350px;height:40px;line-height:80px;position:relative;float:right;position:relative;
+}
+.component-computer-logo form input{
+    flex-grow:4;
+    height: 40px;
+    padding: 0 10px;vertical-align: top;
+}
+.search-btn{
+    right:0;
+    top:0px; background: #4990e2;
+    height: 40px;
+    width: 40px;border-top-right-radius: 5px;border-bottom-right-radius:5px;
+    cursor: pointer;
+}
+.search-btn .icon-search{
+    float:left;display:inline-block;vertical-align: middle;text-align:center;line-height:40px;margin:10px 0 0 10px;
+}
+.component-computer-logo form>img{
+    width:20px;
+    height:20px;
+    position:absolute;
+    right:10px;
+    top:9px
+}
+.component-search>div{
+    width: 145px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: left;
+    line-height: 37px;
+    color: #4990e2;font-size:14px;border:1px solid #4990e2;
+    margin: 15px 0 15px 20px;
+}
+.component-search>div span{
+    background: url("./imgs/icon-mainEle.png") no-repeat 0  -73px;
+    width: 24px;
+    height: 24px;
+    margin: 9px 5px 0 25px;
+}
+.component-search>div:hover{
+    cursor:pointer; background:#4990e2;color:#fff;
+}
+.component-search>div:hover .icon-tool{
+    background-position-y: -92px ;
+}
